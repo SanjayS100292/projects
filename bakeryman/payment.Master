@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="payment.Master.cs" Inherits="bakeryman.Site5" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style4 {
+            height: 80px;
+        }
+        .auto-style5 {
+            width: 327px;
+            height: 149px;
+        }
+        .auto-style6 {
+            width: 785px;
+            text-align: left;
+        }
+        .auto-style7 {
+            width: 444px;
+            height: 124px;
+        }
+        .auto-style11 {
+            width: 886px;
+            text-align: center;
+        }
+        .auto-style12 {
+            width: 173px;
+        }
+        .auto-style15 {}
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style4">
+                    <table class="auto-style1">
+                        <tr>
+                            <td class="auto-style6">
+                                <img alt="" class="auto-style7" src="IMAGES/payu.png" /></td>
+                            <td style="text-align: right">
+                                <img alt="" class="auto-style5" src="IMAGES/payment-gateway-1.jpg" /></td>
+                        </tr>
+                    </table>
+                </td>
+                
+            </tr>
+            <tr>
+                <td class="auto-style15" >
+                    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                     
+                </td>
+            </tr>
+            <tr>
+               
+                <td class="auto-style4">
+                    <table class="auto-style1">
+                        <tr>
+                            <td class="auto-style12">
+                                &nbsp;</td>
+                            <td class="auto-style11">
+                                &nbsp;</td>
+                            <td style="text-align: right">
+                                &nbsp;</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
